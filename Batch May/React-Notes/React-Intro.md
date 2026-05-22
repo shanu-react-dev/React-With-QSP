@@ -62,3 +62,47 @@ _React follows reconciliation process where the content is fetting updated dynam
 7. it will ask you to install, run the command as `npm install`
 8. After getting the installation done you can run the project using command `npm run dev`
 9. To stop the server or running project you can use the shortcut key `ctrl` + `c`
+
+## JSX
+
+_JSX stands for JavaScript and XML and it is an extension which allows us to write JavaScript and HTML like content in the same file. It is super fast._
+
+## How to write JSX
+
+_To write JSX first we need to create a file having extension as `.jsx`. It follows certain rules as mentioned below._
+
+1. Inside JSX file if we want to declare javascript variable it must and should have been decalred before return keyword.
+2. HTML like contents must and should be written inside return statement.
+3. To access JavaScript variable in JSX we need to use JSX expression `{}`.
+4. Each and every self closing tag must and should be closed.
+5. It follows synthetic Event. (task)
+6. Name of the components must and should start with capital letter.
+7. Attributes should be written in camelcase.
+8. HTML class attribute will be used as `className` inside JSX.
+9. HTML for attribute will be considered as `htmlFor` inside JSX.
+10. Loops like for, while, do while are not possible inside JSX.
+11. Conditional statements like switch, if, if else are not possible inside JSX.
+12. Advanced array method such as map filter forEach and reduce are possible inside JSX.
+13. Ternary Operator is applicable inside JSX.
+
+## Components in React
+
+_Components are building block of react applications. It is the smallest part of UI having own state and props. It is reusable in nature. It helps to update the UI efficiently or make any changes to the UI._
+
+_We can create components in two ways in React JS_
+
+1. **Class Based Component (CBC):** In react class based component refers to a component created using class keyword. Here we are extending component as React.Component. It is stateful in nature and follows lifecycle methods like render, mounting, unmounting etc.
+   _It is deprecated means not in use now_
+2. **Functional Components:** These kind of components are simple JavaScript function which returns JSX elements which will be visible to the UI. It is stateless in nature. Here we are having something called as hooks which makes it as stateful and allows to add different behaviours.
+   _As per now we are using React 19.2 version here we are using Hooks._
+
+## Difference between class based component and functional component
+
+| Class Based Component                                                                      | Functional Component                                                                             |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Class Based component are stateful.                                                        | Functional Based component are stateless.                                                        |
+| In class based component there is render method to display the React element inside the UI | In Functional based component there is no render method inside the component. Here we have props |
+| Class Based component does not support hooks                                               | Functional component based on hooks itself.                                                      |
+| We can extend the component in Class based using React.Component or React.PureComponent    | In Functional Component Simple JavaScript function will be considered as a component.            |
+| Class based component supports life cycle methods of the webpage                           | There is no direct lifecycle methods inside functional component.                                |
+| Class based componets are bit complex as compared to Functional component                  | It is easy to write and read.                                                                    |
