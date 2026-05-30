@@ -4,7 +4,7 @@ const Dropdown = () => {
   return (
     <div className="dropdown">
       <select>
-        <option value=""></option>
+        <option value="">UPCOMING LAUNCHES</option>
       </select>
     </div>
   );
